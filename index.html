@@ -1,0 +1,52 @@
+
+<html>
+  <head>
+    <title>Pathfinder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div id='navBar'>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a id="refreshButton" class="navbar-brand" href="#">Pathfinding Visualizer</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Algorithms
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li id="startButtonDijkstra"><a href="#">Djikstra's Algorithm</a></li>
+                <li id="startButtonAStar"><a href="#">A* Search</a></li>
+                <li id="startButtonBFS"><a href="#">Breadth-first Search</a></li>
+                <li id="startButtonDFS"><a href="#">Depth-first Search</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data=toggle="dropdown" href="#">Mazes &amp; Patterns
+              <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li id='startButtonCreateMazeOne'><a href="#">Basic Maze #1</a></li>
+                  <li id='startButtonCreateMazeTwo'><a href="#">Basic Maze #2</a></li>
+                  <li id='startButtonCreateMazeThree'><a href="#">Basic Maze #3</a></li>
+                </ul>
+            </li>
+            <li id='startButtonStart'><button id="actualStartButton" class="btn btn-default navbar-btn" type="button">Visualize</button></li>
+            <li id='startButtonClearBoard'><a href="#">Clear Board</a></li>
+            <li id='startButtonClearWalls'><a href="#">Clear Walls</a></li>
+            <li class="dropdown">
+              <a id="adjustSpeed" class="dropdown-toggle" data-toggle="dropdown" href="#">Speed: Medium
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li id='adjustFast'><a href="#">Fast</a></li>
+                <li id='adjustMedium'><a href="#">Medium</a></li>
+                <li id='adjustSlow'><a href="#">Slow</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
